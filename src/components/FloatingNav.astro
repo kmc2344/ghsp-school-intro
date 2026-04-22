@@ -1,0 +1,23 @@
+---
+const { items = [] } = Astro.props;
+---
+
+<nav class="floating-nav" aria-label="ページ内ナビゲーション">
+  {items.map((item) => (
+    <a href={item.href}>{item.label}</a>
+  ))}
+</nav>
+const { items = [] } = Astro.props;
+
+<nav class="floating-nav" aria-label="ページ内ナビゲーション">
+  {items.map((item) => (
+    <a href={item.href}>{item.label}</a>
+  ))}
+</nav>
+const { items = [] }: { items?: { label: string; href: string }[] } = Astro.props;
+
+<nav class="floating-nav" aria-label="ページ内ナビゲーション">
+  {items.map((item) => (
+    <a href={item.href}>{item.label}</a>
+  ))}
+</nav>

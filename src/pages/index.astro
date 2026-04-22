@@ -1,0 +1,216 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const base = import.meta.env.BASE_URL;
+const basePath = base.endsWith('/') ? base : `${base}/`;
+---
+
+<Layout
+  title="神山まるごと高専 | Wild Signals for New Makers"
+  description="神山まるごと高専の世界観、学校概要、カリキュラム、学生生活を大胆なビジュアルで紹介する1ページサイト。"
+  ogTitle="神山まるごと高専 | Wild Signals for New Makers"
+  ogDescription="テクノロジー、デザイン、地域実践を横断しながら未来の輪郭を自分でつくるための学校紹介ページ。"
+>
+  <nav class="floating-nav" aria-label="ページ内ナビゲーション">
+    <a href="#top">Top</a>
+    <a href="#overview">学校概要</a>
+    <a href="#curriculum">カリキュラム</a>
+    <a href="#life">学生生活</a>
+  </nav>
+
+  <main class="page-main">
+    <section class="hero-panel section-frame" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow-text">Kamiyama Whole College / Prototype Page</p>
+        <h1>神山まるごと高専</h1>
+        <p class="hero-lead">未来を待つのではなく、未来の側へ踏み込むための学校。</p>
+        <p class="hero-summary">
+          神山まるごと高専は、テクノロジー、デザイン、地域との接続を横断しながら、手を動かして価値を立ち上げる感覚を育てるための実験的な学びの場です。
+        </p>
+        <div class="hero-actions">
+          <a href="#curriculum" class="button-primary">カリキュラムを見る</a>
+          <a href="#overview" class="button-secondary">学校概要へ進む</a>
+        </div>
+        <ul class="sticker-row" aria-label="ページコンセプト">
+          <li>Prototype Everything</li>
+          <li>Tech x Design x Region</li>
+          <li>No Official Assets Yet</li>
+        </ul>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <div class="orbital orbital-a"></div>
+        <div class="orbital orbital-b"></div>
+        <div class="hero-display-card hero-display-card-main">
+          <span>Signal 01</span>
+          <strong>学ぶ場所ではなく、つくりながら学びを再定義する場所。</strong>
+          <p>座学だけで終わらず、試作、検証、発表まで含めて自分の中に回路をつくっていく。</p>
+        </div>
+        <div class="hero-display-card hero-display-card-sub">
+          <span>Signal 02</span>
+          <strong>高密度の刺激と、手触りのある実践。</strong>
+          <p>抽象と現場、ソフトウェアと表現、個人制作とチーム開発を行き来する。</p>
+        </div>
+        <div class="hero-visual-mark">KAMIYAMA</div>
+      </div>
+    </section>
+
+    <section class="section-frame intro-band" aria-label="導入メッセージ">
+      <p>Simple ではなく Signal を。</p>
+      <p>Official ではなく Prototype を。</p>
+      <p>Static でも熱量は落とさない。</p>
+    </section>
+
+    <section class="content-section section-frame" id="overview">
+      <header class="section-heading">
+        <p class="section-label">学校概要</p>
+        <h2>輪郭のはっきりした学校紹介ではなく、進路の解像度を上げるための導入口。</h2>
+        <p class="section-copy">
+          このページは正式資料の代替ではなく、神山まるごと高専という場が持つ空気感や学びの方向性を先に体感してもらうための仮設プロトタイプです。あとから公式文言、写真、ロゴへ差し替えやすいよう、情報と装飾は分離して設計しています。
+        </p>
+      </header>
+
+      <div class="overview-grid">
+        <div class="facts-grid">
+          <article class="fact-card">
+            <strong>1</strong>
+            <h3>ページ構成</h3>
+            <p>トップから学生生活まで縦に接続</p>
+          </article>
+          <article class="fact-card">
+            <strong>3</strong>
+            <h3>学びの軸</h3>
+            <p>技術 / デザイン / 地域実践</p>
+          </article>
+          <article class="fact-card">
+            <strong>100%</strong>
+            <h3>差し替え前提</h3>
+            <p>文言とビジュアルを後続更新しやすく整理</p>
+          </article>
+        </div>
+
+        <div class="bullet-panel">
+          <p class="bullet-panel-label">Design Notes</p>
+          <ul>
+            <li>公式素材が未提供でも公開を始められるよう、SVGとCSSで装飾を内製。</li>
+            <li>本文は可読性を優先しつつ、見出しと背景で強い熱量を出す構成。</li>
+            <li>各セクションはデータ定義から差し替え可能で、HTML構造の修正を最小化。</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section section-frame curriculum-section" id="curriculum">
+      <header class="section-heading">
+        <p class="section-label">カリキュラム</p>
+        <h2>技術だけでも、デザインだけでも足りない。越境の回数を増やすための編成。</h2>
+        <p class="section-copy">
+          学びを単一科目の列としてではなく、つくる力を立ち上げるための連動した経験として見せる想定です。ここでは仮の紹介項目として、後から正式情報へ差し替えやすい粒度で整理しています。
+        </p>
+      </header>
+
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee-track">
+          <span>Technology</span>
+          <span>Design</span>
+          <span>Culture</span>
+          <span>Research</span>
+          <span>Prototype</span>
+          <span>Launch</span>
+          <span>Technology</span>
+          <span>Design</span>
+          <span>Culture</span>
+          <span>Research</span>
+          <span>Prototype</span>
+          <span>Launch</span>
+        </div>
+      </div>
+
+      <div class="track-grid">
+        <article class="track-card">
+          <p class="track-index">01</p>
+          <h3>Foundation Burst</h3>
+          <p class="track-subtitle">基礎を圧縮しながら広く掴む。</p>
+          <ul>
+            <li>プログラミング基礎</li>
+            <li>情報設計の考え方</li>
+            <li>観察とリサーチ</li>
+            <li>プレゼンテーション</li>
+          </ul>
+        </article>
+        <article class="track-card">
+          <p class="track-index">02</p>
+          <h3>Project Studio</h3>
+          <p class="track-subtitle">チームで実装し、つくったものを外へ出す。</p>
+          <ul>
+            <li>プロトタイピング</li>
+            <li>UI / UX 設計</li>
+            <li>サービス企画</li>
+            <li>レビューと改善サイクル</li>
+          </ul>
+        </article>
+        <article class="track-card">
+          <p class="track-index">03</p>
+          <h3>Regional Interface</h3>
+          <p class="track-subtitle">地域と接点を持ち、実践を現実へ接続する。</p>
+          <ul>
+            <li>フィールドワーク</li>
+            <li>地域課題の読解</li>
+            <li>協働プロジェクト</li>
+            <li>発表とアーカイブ</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="content-section section-frame life-section" id="life">
+      <header class="section-heading">
+        <p class="section-label">学生生活</p>
+        <h2>静かな学校生活ではなく、刺激の密度が高い日常を想定する。</h2>
+        <p class="section-copy">
+          寮、制作、対話、地域、イベント、締切。学生生活は授業外まで含めて学びの延長線上にあります。ここでは正式写真の代わりに抽象ビジュアルを配置し、後から実画像へ差し替えやすい構成にしています。
+        </p>
+      </header>
+
+      <div class="life-grid">
+        <div class="life-cards">
+          <article class="life-card">
+            <h3>Living Rhythm</h3>
+            <p>生活と制作が離れすぎない。思いついたらすぐ試せる距離感をつくる。</p>
+          </article>
+          <article class="life-card">
+            <h3>Peer Feedback</h3>
+            <p>作品やアイデアを途中段階から見せ合い、対話を回し続ける。</p>
+          </article>
+          <article class="life-card">
+            <h3>Open Atmosphere</h3>
+            <p>学年や専門の境界を固定化せず、混ざることで視点を増やしていく。</p>
+          </article>
+        </div>
+
+        <div class="gallery-stack">
+          <figure class="gallery-card">
+            <img src={basePath + 'dummy-wave.svg'} alt="抽象的なグラデーションと格子で構成したダミービジュアル" loading="lazy" />
+            <figcaption>Photo Slot A / 実画像が届いたら差し替え</figcaption>
+          </figure>
+          <figure class="gallery-card gallery-card-offset">
+            <img src={basePath + 'dummy-grid.svg'} alt="立体的な図形で構成したダミービジュアル" loading="lazy" />
+            <figcaption>Photo Slot B / SVG のままでも運用可能</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer section-frame">
+    <div>
+      <p class="footer-mark">Prototype for GitHub Pages</p>
+      <h2>神山まるごと高専紹介ページ</h2>
+    </div>
+    <ul>
+      <li>このページの文言とビジュアルは初回公開用の仮素材です。</li>
+      <li>公式ロゴ、正式写真、正式紹介文は後から差し替える想定です。</li>
+      <li>GitHub Pages 向けの静的出力と base 設定を前提に構成しています。</li>
+    </ul>
+  </footer>
+</Layout>

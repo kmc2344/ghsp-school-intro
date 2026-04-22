@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <rect width="128" height="128" rx="24" fill="#0d0f27" />
+  <circle cx="42" cy="42" r="24" fill="#ff4fa3" />
+  <path d="M30 88L88 30h18L48 88z" fill="#d0ff3f" />
+  <path d="M54 98l22-22h24L78 98z" fill="#63f3ff" />
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">神山まるごと高専紹介ページの仮 favicon</title>
+  <desc id="desc">ネオンカラーの斜線と円で構成した抽象アイコン</desc>
+  <rect width="128" height="128" rx="28" fill="#0d0f27" />
+  <circle cx="64" cy="64" r="42" fill="#ff4fa3" opacity="0.9" />
+  <path d="M26 80L80 24h22L48 80z" fill="#d0ff3f" />
+  <path d="M36 96l28-28h28L64 96z" fill="#63f3ff" />
+</svg>

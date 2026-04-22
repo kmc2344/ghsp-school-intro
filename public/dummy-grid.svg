@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+  <rect width="1200" height="900" fill="#101637" />
+  <g stroke="#ffffff" opacity="0.12">
+    <path d="M0 150h1200" />
+    <path d="M0 300h1200" />
+    <path d="M0 450h1200" />
+    <path d="M0 600h1200" />
+    <path d="M0 750h1200" />
+    <path d="M150 0v900" />
+    <path d="M300 0v900" />
+    <path d="M450 0v900" />
+    <path d="M600 0v900" />
+    <path d="M750 0v900" />
+    <path d="M900 0v900" />
+  </g>
+  <rect x="180" y="160" width="320" height="320" rx="40" fill="#63f3ff" opacity="0.14" />
+  <rect x="380" y="260" width="420" height="420" rx="56" fill="#ff4fa3" opacity="0.16" />
+  <rect x="780" y="140" width="210" height="210" rx="32" fill="#d0ff3f" opacity="0.22" />
+</svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">抽象ダミービジュアル B</title>
+  <desc id="desc">格子、発光矩形、立体風の面で構成した抽象的なイメージ</desc>
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0c102b" />
+      <stop offset="60%" stop-color="#1d2759" />
+      <stop offset="100%" stop-color="#09111b" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg2)" />
+  <g opacity="0.16" stroke="#ffffff">
+    <path d="M0 0v900" />
+    <path d="M150 0v900" />
+    <path d="M300 0v900" />
+    <path d="M450 0v900" />
+    <path d="M600 0v900" />
+    <path d="M750 0v900" />
+    <path d="M900 0v900" />
+    <path d="M1050 0v900" />
+    <path d="M0 0h1200" />
+    <path d="M0 150h1200" />
+    <path d="M0 300h1200" />
+    <path d="M0 450h1200" />
+    <path d="M0 600h1200" />
+    <path d="M0 750h1200" />
+  </g>
+  <g>
+    <rect x="170" y="150" width="320" height="320" rx="40" fill="#63f3ff" opacity="0.14" />
+    <rect x="360" y="260" width="420" height="420" rx="52" fill="#ff4fa3" opacity="0.18" />
+    <rect x="720" y="140" width="220" height="220" rx="36" fill="#d0ff3f" opacity="0.22" />
+  </g>
+  <g fill="#ffffff">
+    <rect x="120" y="690" width="220" height="24" rx="12" />
+    <rect x="120" y="730" width="360" height="16" rx="8" opacity="0.7" />
+    <rect x="120" y="760" width="290" height="16" rx="8" opacity="0.55" />
+  </g>
+  <path d="M810 560l110-180 130 80-110 180z" fill="#ffe97a" opacity="0.9" />
+</svg>
